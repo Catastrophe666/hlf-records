@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: records_1:2d811c4db17ed0cc620b1fbeb2d14238f7e498d32640f1d43d8e519ffed46a14, Label: records_1
