@@ -8,7 +8,7 @@ const multer = require('multer');
 const upload = multer({ dest: 'uploads/' }); 
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(bodyParser.json());
 
@@ -155,6 +155,5 @@ async function createGateway(){
 // Start the server
 app.listen(port, async () => {
   console.log(`Server running at http://localhost:${port}`);
-  await createGateway()
   await syncDatabase();
 });

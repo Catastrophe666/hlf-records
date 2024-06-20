@@ -1,7 +1,7 @@
 const { Sequelize, DataTypes } = require('sequelize');
 
 // Initialize Sequelize with PostgreSQL database details
-const sequelize = new Sequelize('postgres://postgres:mysecretpassword@localhost:5432/postgres');
+const sequelize = new Sequelize('postgres://postgres:mysecretpassword@localhost:5433/postgres');
 
 // Define User model
 const Record = sequelize.define('Record', {
